@@ -97,10 +97,9 @@ class Main extends PluginBase implements Listener {
 					$this->nickcfg->setNested($player->getName() . ".custom name", $data[0]);
 					$this->nickcfg->setNested($player->getName() . ".normal name", $player->getName());
 					$this->nickcfg->save();
-					$this->nick[$player->getName()] = $this->nickcfg->setNested($player->getName() . ".normal name", $player->getName());
 					$player->setDisplayName($this->nickcfg->getNested($player->getName() . ".custom name"));
 					$player->setNameTag($this->nickcfg->getNested($player->getName() . ".custom name"));
-					$player->sendMessage("§eYour name is now §c" . $this->nickcfg->getNested($player->getName() . ".custom name"));
+					$player->sendMessage("§eYour name is now §c" . $this->nickcfg->getNested($player->getName() . ".custom name"). "§e!");
 					return true;
 				}
 		});
