@@ -13,3 +13,7 @@
 • The Owner of this plugin is DanuRoYT
 
 • Add me on discord to chat with me! DanuRoYT#1854
+
+# LICENSE
+
+The License is here [License](LICENSE)
