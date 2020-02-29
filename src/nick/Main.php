@@ -38,6 +38,14 @@ class Main extends PluginBase implements Listener {
 		
 		switch($cmd->getName()){
 			case "nick":
+			if(!($sender->hasPermission("danuroyt.nick"))){
+				$sender->sendMessage("§cYou don't have permission");
+				return true;
+			}
+			if(!($sender instanceof Player)){
+				$sender->sendMessage("§cThis command can be run only in game");
+				return true;
+			}
 			$form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createSimpleForm(function (Player $player, $data = null){
 				$result = $data;
 				if($result === null){
