@@ -4,6 +4,6 @@ branches:
 - master
 projects:
   NickUI:
-    path: ""
     icon: icon.png
+    path: ""
 ...
