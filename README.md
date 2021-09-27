@@ -1,24 +1,15 @@
-# NickUI
-[![](https://poggit.pmmp.io/shield.state/NickUI)](https://poggit.pmmp.io/p/NickUI)
-<a href="https://poggit.pmmp.io/p/NickUI"><img src="https://poggit.pmmp.io/shield.state/NickUI"></a>
-
-[![](https://poggit.pmmp.io/shield.api/NickUI)](https://poggit.pmmp.io/p/NickUI)
-<a href="https://poggit.pmmp.io/p/NickUI"><img src="https://poggit.pmmp.io/shield.api/NickUI"></a>
-
 # Description
-• This Plugin is NickName UI plugin for pocketmine!
+• This Plugin lets you change your nickname by simply using an UI!
 
-# Commands
+# Command
 • /nick
 
-# Permissions
-• danuroyt.nick
+# Permission
+• mediflexdev.nick.cmd
 
 # Owner
-• The Owner of this plugin is DanuRoYT
-
-• Add me on discord to chat with me! DanuRoYT#4038
+• The Owner of this plugin is MediFlexDev
+• Add me on discord to chat with me! MediFlex#9207
 
 # LICENSE
-
-The License is here [License](LICENSE)
+The License of this plugin is here > [License](LICENSE)
