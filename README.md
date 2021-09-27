@@ -8,7 +8,7 @@
 • mediflexdev.nick.cmd
 
 # Owner
-• The Owner of this plugin is MediFlexDev
+• The Owner of this plugin is MediFlexDev<br>
 • Add me on discord to chat with me! MediFlex#9207
 
 # LICENSE
