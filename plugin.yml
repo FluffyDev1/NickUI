@@ -5,6 +5,10 @@ main: nick\Main
 author: DanuRoYT
 commands:
  nick:
-  description: "Change your nickname"
-  permission: danuroyt.nick
+  description: "Change your nickname by using UI"
+  permission: mediflexdev.nick.cmd
   default: op
+permissions:
+ mediflexdev.nick.cmd:
+  description: "The base permission for /nick command"
+  default: false
