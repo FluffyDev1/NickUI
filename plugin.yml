@@ -2,7 +2,7 @@ name: NickUI
 api: [3.0.0, 4.0.0]
 version: 1.0.0
 main: nick\Main
-author: DanuRoYT
+author: MediFlexDev
 commands:
  nick:
   description: "Change your nickname by using UI"
